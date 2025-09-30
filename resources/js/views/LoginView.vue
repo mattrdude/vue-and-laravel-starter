@@ -25,12 +25,6 @@
         password: null,
     });
 
-    interface User {
-        id: number;
-        name: string;
-        email: string;
-    }
-
     const user = {};
     const error = ref<string | null>(null);
 

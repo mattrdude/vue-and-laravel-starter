@@ -48,6 +48,8 @@ export async function apiSignUp(user) {
 
     userStore.setUser(response.user);
 
+    await refreshCsrf();
+
     if (response.status === 401) {
         throw new Error("Error.");
     } else {
