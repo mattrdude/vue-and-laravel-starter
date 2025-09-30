@@ -10,7 +10,7 @@ A small project demonstrating Vue 3 with Laravel as the backend. Features includ
 - composer install
 - npm install
 - php artisan migrate
-- php artisan DB:seed (creates a user with credentials, email: test@test.com, password: 12345)
+- php artisan db:seed (creates a user with credentials, email: test@test.com, password: 12345)
 - php artisan serve
 - In a new terminal window run npm run dev 
 
