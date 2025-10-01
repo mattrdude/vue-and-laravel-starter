@@ -34,7 +34,6 @@
 
     async function onFormSubmit() {
         error.value = null;
-        console.log('what?')
         try {
             user.email = form.value.email;
             user.password = form.value.password;
