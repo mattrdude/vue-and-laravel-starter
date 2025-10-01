@@ -28,10 +28,6 @@
     const user = {};
     const error = ref<string | null>(null);
 
-    async function checkMe() {
-        const r = await apiFetchCurrentUser();
-    }
-
     async function onFormSubmit() {
         error.value = null;
         try {
